@@ -171,6 +171,7 @@ document.querySelector('#book-form').addEventListener('submit',(e)=>
                 const bookinst=new book(title, author, isbn);
                 Store.EditBook(bookinst, isbn);
                 UI.clearFields();
+                document.querySelector('#isbn').disabled=false;
             }
             else{
                 

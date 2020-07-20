@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: #ffdbc5;
-    text-align: center;
+    
     font-family: 'Merriweather', serif;
 }
 
@@ -37,6 +37,7 @@ h1{
 .btn-submit{
     background: #423144;
     color: #ced4da;
+    margin-left: 105px;
 }
 .btn-delete{
     background: #cf1b1b;
@@ -77,6 +78,9 @@ h1{
 }
 .alert-error{
     background: #cf1b1b;
+}
+.alert-edit{
+    background: #76cbf3;
 }
 
 
